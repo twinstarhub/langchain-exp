@@ -1,4 +1,4 @@
-# LangChain Experiments
+# Overview
 
 This repository focuses on experimenting with the LangChain library for building powerful applications with large language models (LLMs). By leveraging state-of-the-art language models like OpenAI's GPT-3.5 Turbo (and soon GPT-4), this project showcases how to create a searchable database from a YouTube video transcript, perform similarity search queries using the FAISS library, and respond to user questions with relevant and precise information.
 
@@ -36,7 +36,7 @@ The OpenAI API is powered by a diverse set of [models](https://platform.openai.c
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/daveebbelaar/langchain-experiments.git
+git clone https://github.com/twinstarhub/langchain-exp.git
 ```
 
 #### 2. Create a Python environment
@@ -44,14 +44,14 @@ git clone https://github.com/daveebbelaar/langchain-experiments.git
 Python 3.6 or higher using `venv` or `conda`. Using `venv`:
 
 ``` bash
-cd langchain-experiments
+cd langchain-exp
 python3 -m venv env
 source env/bin/activate
 ```
 
 Using `conda`:
 ``` bash
-cd langchain-experiments
+cd langchain-exp
 conda create -n langchain-env python=3.8
 conda activate langchain-env
 ```
@@ -84,11 +84,4 @@ api_key = os.environ['OPENAI_API_KEY']
 ```
 
 Now your Python environment is set up, and you can proceed with running the experiments.
-
-## Datalumina
-
-This document is provided to you by Datalumina. We help data analysts, engineers, and scientists launch and scale a successful freelance business — $100k+ /year, fun projects, happy clients. If you want to learn more about what we do, you can visit our [website](https://www.datalumina.io/) and subscribe to our [newsletter](https://www.datalumina.io/newsletter). Feel free to share this document with your data friends and colleagues.
-
-## Tutorials
-For video tutorials on how to use the LangChain library and run experiments, visit the YouTube channel: [youtube.com/@daveebbelaar](youtube.com/@daveebbelaar)
 
